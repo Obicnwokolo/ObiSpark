@@ -10,7 +10,7 @@ object ObiSpark {
 
 
     //Create RDD from parallelize
-    val dataSeq = Seq(("Java", 20000), ("Python", 100000), ("Scala", 3000))
+    val dataSeq = Seq(("Java", 22000), ("Python", 100000), ("Scala", 3000))
     val rdd = sc.parallelize(dataSeq)
     println(rdd.collect().foreach(print))
 

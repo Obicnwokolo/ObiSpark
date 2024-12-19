@@ -1,4 +1,4 @@
-package ScalaDemo.com.scala
+package Obi
 // import spark.implicits._
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
